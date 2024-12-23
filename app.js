@@ -21,13 +21,7 @@ const app = express();
 // Middleware
 app.use(
   cors({
-    origin: [
-      "http://localhost:3000",
-      "http://localhost:5173",
-      "https://merabestie.com",
-      "https://hosteecommerce.vercel.app",
-      "https://ambaree-backend.up.railway.app",
-    ],
+    origin: *,
     credentials: true,
     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
     allowedHeaders: ["Content-Type", "Authorization", "X-Requested-With"],
