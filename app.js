@@ -26,6 +26,7 @@ app.use(
       "http://localhost:5173",
       "https://merabestie.com",
       "https://hosteecommerce.vercel.app",
+      "https://assignment-ecom-website-reui84mn7-rohanshirsalkars-projects.vercel.app",
     ],
     credentials: true,
     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
